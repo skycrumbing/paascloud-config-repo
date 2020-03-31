@@ -4,16 +4,16 @@ spring:
       client:
         metadata:
           user:
-            name: ${security.user.name}
-            password: ${security.user.password}
+            name: admin
+            password: admin
       monitor:
         period: 60000
       discovery:
         enabled: true
       notify:
         mail:
-          to: xxxxxxxx@163.com
-          from: paascloudTest@163.com
+          to: 1186817894@qq.com
+          from: tantao1211@qq.com
       turbine:
         clusters: default
         location: paascloud-monitor
